@@ -65,12 +65,12 @@ namespace FortuneTellerProject
                     Console.WriteLine("Now, you may select your favorite color.");
                     favColor = Console.ReadLine();
             }
-                  
-                 
+
+            favColor = favColor.ToLower();
                 {
                     switch (favColor)
                     {
-                        case "RED":
+                        case "red":
                             transportMode = "built to size Titanic replica";
                             break;
                         case "orange":
