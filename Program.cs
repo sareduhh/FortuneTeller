@@ -9,9 +9,10 @@ namespace FortuneTellerProject
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
+
             Console.WriteLine("Welcome to the mysterious Fortune Teller! Follow the instructions below to find out your accurate fortune reading.");
-            Console.WriteLine("Press \"Enter\" to continue, or you may type \"quit\" at any point to quit the program.");
+            Console.WriteLine("Press \"Enter\" to continue.");
             Console.ReadKey();
     
             Console.WriteLine("Please enter your first name.");
@@ -128,7 +129,7 @@ namespace FortuneTellerProject
                     Console.WriteLine("Finally, it is time for me to read your fortune. If you are ready to continue, press \"Enter\".");
                     Console.ReadKey();
 
-                    Console.WriteLine(firstName + " " + lastName + " " + "will retire in" + " " + retireInYears + " " + "years with" + " " + moneyInBank + " " + "in the bank, a vacation home in" + " " + vacationHome + " " + "and a" + " " + transportMode + ".");
+                    Console.WriteLine(firstName + " " + lastName + " " + "will retire in" + " " + retireInYears + " " + "years with" + " " + "$" + moneyInBank + " " + "in the bank, a vacation home in" + " " + vacationHome + " " + "and a" + " " + transportMode + ".");
 
                 }
 
