@@ -39,7 +39,7 @@ namespace FortuneTellerProject
 
             int birthMonth = int.Parse(Console.ReadLine());
 
-            if (birthMonth > 0 && birthMonth <= 4)
+            if (birthMonth >=1 && birthMonth <= 4)
             {
                 moneyInBank = "234,234,234";
             }
